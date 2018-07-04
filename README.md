@@ -55,13 +55,14 @@ sudo apt-get install nvidia-<version>
 
 Option 2: install from NVIDIA
 
-download Runfile and run with --no-opengl-files flag
+Download Runfile and run with --no-opengl-files flag
 ```
 chmod +x NVIDIA-Linux-x86_64-*.run
 sudo NVIDIA-Linux-x86_64-*.run --no-opengl-files
 ```
 
-**check whether driver is correctly installed**
+**Check whether driver is correctly installed**
 ```
-nvidia-smi` 
+nvidia-smi
 ```
+Information about the graphic card will show if driver is correctly installed.
