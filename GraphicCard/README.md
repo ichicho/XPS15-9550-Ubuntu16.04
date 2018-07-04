@@ -18,7 +18,7 @@ Write following contents in `etc/modprobe.d/blacklist-nouveau.conf` as root:
 blacklist nouveau
 options nouveau modeset=0
 ```
-Restart kernel initramfs and reboot
+Restart kernel initramfs and reboot.
 ```
 sudo update-initramfs -u
 reboot
@@ -31,7 +31,7 @@ If there is no output, it means nouveau driver is successfully disabled.
 ## Install NVIDIA driver
 Until 2018.7.4 is 390, stable version is 390.
 
-Change to text mode(Ctrl+Alt+3) and stop x server
+Change to text mode(Ctrl+Alt+3) and stop x server.
 ```
 sudo service lightdm stop
 ```
@@ -45,7 +45,7 @@ sudo apt-get update
 sudo apt-get install nvidia-<version>
 ```
 ### Option 2: install from NVIDIA
-Download Runfile and **run with _--no-opengl-files_ flag**
+Download Runfile and **run with _--no-opengl-files_ flag**.
 
 OpenGL will make Optimus-based laptop's GUI not work.
 ```
