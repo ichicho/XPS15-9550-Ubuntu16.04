@@ -1,4 +1,4 @@
-# Configure NVIDIA Geforce GTX 960m driver
+# Install NVIDIA Geforce GTX 960m driver
 ## Update Intel microcode and reboot
 ```
 sudo apt-get update
