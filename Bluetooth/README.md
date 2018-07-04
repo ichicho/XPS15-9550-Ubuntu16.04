@@ -6,5 +6,5 @@ Download [BCM-0a5c-6410.hcd](./BCM-0a5c-6410.hcd) in this repository  and copy i
 sudo cp BCM-0a5c-6410.hcd /lib/firmware/brcm
 ```
 Credit to [this post](https://bbs.archlinux.org/viewtopic.php?id=204739).
-## Fix MX Master
+## Fix Logitech MX Master
 Follow [this](./MX-Master-Fix.md)
