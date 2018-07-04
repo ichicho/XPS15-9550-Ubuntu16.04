@@ -13,6 +13,7 @@ Check status of nouveau
 lsmod | grep nouveau
 ```
 If there is a output, nouveau driver is working and you should do the following.
+
 Else, Disabling nouveau driver is not needed.
 
 Write following contents in `etc/modprobe.d/blacklist-nouveau.conf` as root:
@@ -35,4 +36,9 @@ If there is no output, it means nouveau driver is successfully disabled.
 
 **Install NVIDIA driver**
 Until 2018.7.4 is 390, stable version is 390.
+
+Change to text mode(Ctrl+Alt+3) and stop x server
+
+`sudo service lightdm stop`
+
 Option 1: install from ppa
