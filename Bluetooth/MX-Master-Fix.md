@@ -20,4 +20,5 @@ Once you find that, continue inputing like below:
 [bluetooth]# power on
 ```
 MX master must work normally.
+
 Credit to [this post](https://askubuntu.com/a/769095).
