@@ -11,7 +11,7 @@ lsmod | grep nouveau
 ```
 If there is a output, nouveau driver is working and you should do the following.
 
-Else, Disabling nouveau driver is not needed.
+Else, disabling nouveau driver is not needed. This part can be skipped.
 ### Edit system file
 Write following contents in `etc/modprobe.d/blacklist-nouveau.conf` as root:
 ```
@@ -33,7 +33,7 @@ Until 2018.7.4 is 390, stable version is 390.
 
 Change to text mode(Ctrl+Alt+3) and stop x server
 ```
-sudo service lightdm stop`
+sudo service lightdm stop
 ```
 ### Option 1: install from ppa
 ```
@@ -50,7 +50,7 @@ Download Runfile and run with --no-opengl-files flag
 chmod +x NVIDIA-Linux-x86_64-*.run
 sudo NVIDIA-Linux-x86_64-*.run --no-opengl-files
 ```
-## Check whether driver is correctly installed
+### Check whether driver is correctly installed
 ```
 nvidia-smi
 ```
