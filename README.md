@@ -9,9 +9,10 @@ sudo apt-get upgrade
 ```
 
 ## Install NVIDIA Geforce GTX 960m driver
-Follow [this](./GraphicCard/README.md).
+See [this](./GraphicCard/README.md).
 
 ## Install CUDA and cuDNN
-Follow [this](./CUDA-cuDNN/README.md).
+See [this](./CUDA-cuDNN/README.md).
 
 ## Fix Bluetooth
+See [this](./Bluetooth/README.md).
