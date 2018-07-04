@@ -1,4 +1,4 @@
-# Install CUDA and cuDNN for ML
+# CUDA and cuDNN installation guide
 ## Install CUDA
 Change to text mode(Ctrl+Alt+3) and stop x server.
 ```
@@ -10,10 +10,12 @@ chmod +x cuda_*_linux.run
 sudo cuda_*_linux.run --no-opengl-libs
 ```
 ### Device Node Verification and Post-instnallation
-Following Installation Guide Linux in [guide](https://docs.nvidia.com/cuda/).
+Follow Installation Guide Linux in [guide](https://docs.nvidia.com/cuda/).
 ## Install patch
 Download patch and run it.
 ```
 command for run patch
 ```
 ## Install cuDNN
+Follow Installing cuDNN on Linux in [guide](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html).
+
