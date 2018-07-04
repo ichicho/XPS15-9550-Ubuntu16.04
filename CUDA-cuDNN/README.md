@@ -16,7 +16,8 @@ Follow *Installation Guide Linux* in [official guide](https://docs.nvidia.com/cu
 ## Install patch
 Download patch and run it.
 ```
-command for run patch
+chmod +x cuda_*_linux.run
+sudo cuda_*_linux.run
 ```
 ## Install cuDNN
 Follow *Installing cuDNN on Linux* in [official guide](https://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html).
