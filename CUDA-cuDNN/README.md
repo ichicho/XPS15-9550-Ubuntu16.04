@@ -6,7 +6,7 @@
 ```
 sudo service lightdm stop
 ```
-3.Run the Runfile **with _--no-opengl-libs_ flag**. (OpenGL will break Optimus-based laptop's GUI.)
+3.Run the Runfile **with _--no-opengl-libs_ flag**. (OpenGL will break GUI in NVIDIA Optimus technology-based laptop.)
 ```
 chmod +x cuda_*_linux.run
 sudo cuda_*_linux.run --no-opengl-libs
