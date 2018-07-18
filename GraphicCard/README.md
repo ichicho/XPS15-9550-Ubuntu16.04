@@ -13,7 +13,7 @@ If there is a output, nouveau driver is working and you should do the following.
 
 Else, disabling nouveau driver is not needed. This part can be skipped.
 ### Edit system file
-Write following contents in `etc/modprobe.d/blacklist-nouveau.conf` as root:
+Write following contents in `/etc/modprobe.d/blacklist-nouveau.conf` as root:
 ```
 blacklist nouveau
 options nouveau modeset=0
