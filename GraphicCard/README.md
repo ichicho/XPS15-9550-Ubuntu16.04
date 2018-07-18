@@ -29,7 +29,7 @@ lsmod | grep nouveau
 ```
 If there is no output, it means nouveau driver is successfully disabled.
 ## Install NVIDIA driver
-Until 2018.7.4 is 390, stable version is 390.
+Until 2018.7.4, stable version is 390.
 
 Change to text mode(Ctrl+Alt+3) and stop x server.
 ```
