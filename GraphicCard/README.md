@@ -31,6 +31,7 @@ If there is no output, it means nouveau driver is successfully disabled.
 ## Install NVIDIA driver
 Until 2018.7.4, stable version is 390.
 
+If you choose to install from Nvidia distribution, please download the Runfile before stopping the GUI.
 Change to text mode(Ctrl+Alt+3) and stop x server.
 ```
 sudo service lightdm stop
@@ -45,7 +46,7 @@ sudo apt-get update
 sudo apt-get install nvidia-<version>
 ```
 ### Option 2: install from NVIDIA
-Download Runfile and **run with _--no-opengl-files_ flag**.
+Run the Runfile **with _--no-opengl-files_ flag**.
 
 OpenGL will make Optimus-based laptop's GUI not work.
 ```
