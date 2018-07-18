@@ -1,12 +1,14 @@
 # CUDA and cuDNN installation guide
 ## Install CUDA
-Change to text mode(Ctrl+Alt+3) and stop x server.
+1.Download the Runfile for installation from NVIDIA.
+
+2.Change to text mode(Ctrl+Alt+3) and stop x server.
 ```
 sudo service lightdm stop
 ```
-Download Runfile and **run with _--no-opengl-libs_ flag**
+3.Run the Runfile **with _--no-opengl-libs_ flag**
 
-OpenGL will make Optimus-based laptop's GUI not work.
+  OpenGL will make Optimus-based laptop's GUI not work.
 ```
 chmod +x cuda_*_linux.run
 sudo cuda_*_linux.run --no-opengl-libs
