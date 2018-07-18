@@ -31,7 +31,8 @@ If there is no output, it means nouveau driver is successfully disabled.
 ## Install NVIDIA driver
 Until 2018.7.4, stable version is 390.
 
-If you choose to install from Nvidia distribution, please download the Runfile before stopping the GUI.
+_If you choose to install from Nvidia distribution, please download the Runfile before stopping the GUI._
+
 Change to text mode(Ctrl+Alt+3) and stop x server.
 ```
 sudo service lightdm stop
