@@ -47,7 +47,7 @@ sudo apt-get update
 sudo apt-get install nvidia-<version>
 ```
 ### Option 2: install from NVIDIA
-Run the Runfile **with _--no-opengl-files_ flag**. (OpenGL will break Optimus-based laptop's GUI.)
+Run the Runfile **with _--no-opengl-files_ flag**. (OpenGL will break GUI in NVIDIA Optimus technology-based laptop.)
 ```
 chmod +x NVIDIA-Linux-x86_64-*.run
 sudo NVIDIA-Linux-x86_64-*.run --no-opengl-files
