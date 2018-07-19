@@ -15,7 +15,7 @@ Once you find that, continue inputing like below:
 [MX Master]# trust
 [MX Master]# connect XX:XX:XX:XX:XX:XX
 [MX Master]# pair
-[MX Master# unblock
+[MX Master]# unblock
 [MX Master]# power off
 [bluetooth]# power on
 ```
