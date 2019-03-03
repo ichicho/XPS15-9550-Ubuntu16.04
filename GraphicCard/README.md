@@ -1,10 +1,10 @@
 # Install NVIDIA Geforce GTX 960m driver
-## Update Intel microcode and reboot
+## 1. Update Intel microcode and reboot
 ```
 sudo apt-get update
 sudo apt-get install intel-microcode
 ```
-## Disable nouveau driver
+## 2. Disable nouveau driver
 ### Check status of nouveau
 ```
 lsmod | grep nouveau
@@ -28,7 +28,7 @@ reboot
 lsmod | grep nouveau
 ```
 If there is no output, it means nouveau driver is successfully disabled.
-## Install NVIDIA driver
+## 3. Install NVIDIA driver
 Until 2018.7.4, stable version is 390.
 
 _If you choose to install from NVIDIA distribution, please download the Runfile before stopping the GUI._
